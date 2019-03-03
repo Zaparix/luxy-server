@@ -3,3 +3,7 @@ Luxy server is a REST based interface for RGB strip controller. The processing o
 
 ## Prerequisites
 OpenMilight (see https://www.torsten-traenkner.de/wissen/smarthome/openmilight.php)
+
+## Build Commands
+Compile: `CONTROLLER=RPI cargo build`
+Run: `./start_dev.sh`
