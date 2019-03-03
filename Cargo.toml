@@ -1,0 +1,13 @@
+[package]
+name = "server"
+version = "0.1.0"
+authors = ["Luca Heitmann <luca.heitmann@zaparix.de>"]
+links = "controller"
+build = "build.rs"
+
+[build-dependencies]
+cc = "1.0"
+
+[dependencies]
+rocket = "0.3.5"
+rocket_codegen = "0.3.5"
