@@ -7,5 +7,5 @@ OpenMilight (see https://www.torsten-traenkner.de/wissen/smarthome/openmilight.p
 ## Build Commands
 | Action  | Command                      |
 |---------|------------------------------|
-| Compile | `CONTROLLER=RPI cargo build` |
+| Compile | `CONTROLLER=MILI cargo build` |
 | Run     | `./start_dev.sh`             |
